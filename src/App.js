@@ -1,4 +1,6 @@
+import { useState } from "react";
 import "./App.css";
+import { NewComp } from './NewComp';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <div class="container is-fullhd">
         <div class="notification">
           Edit the <code>./src</code> folder to add components.
+        <NewComp />
         </div>
       </div>
     </div>
